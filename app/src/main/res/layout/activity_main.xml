@@ -18,6 +18,7 @@
         android:layout_marginTop="10dp">
     </TextView>
     <EditText
+        android:id="@+id/edit_text_number1"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:maxLength="5"
@@ -28,6 +29,7 @@
         android:gravity="left">
     </EditText>
     <EditText
+        android:id="@+id/edit_text_number2"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:maxLength="5"
@@ -38,6 +40,7 @@
         android:gravity="left">
     </EditText>
     <TextView
+        android:id="@+id/text_view_results"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textSize="25sp"
@@ -55,6 +58,7 @@
         android:layout_marginTop="20dp"
         android:gravity="center">
         <Button
+            android:id="@+id/button_plus"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="+"
@@ -62,6 +66,7 @@
             android:layout_marginRight="50dp"
             ></Button>
         <Button
+            android:id="@+id/button_minus"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="-"
@@ -76,6 +81,7 @@
         android:gravity="center"
         android:layout_marginTop="20dp">
         <Button
+            android:id="@+id/button_multiplication"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="*"
@@ -83,6 +89,7 @@
             android:layout_marginRight="50dp"
             ></Button>
         <Button
+            android:id="@+id/button_division"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="/"
@@ -90,7 +97,5 @@
             android:layout_marginLeft="50dp"
             ></Button>
     </LinearLayout>
-
-
 
 </LinearLayout>
