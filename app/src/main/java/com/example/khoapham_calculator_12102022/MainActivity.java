@@ -106,8 +106,8 @@ public class MainActivity extends AppCompatActivity {
                 }
                 else {
                     Float ketqua = number1 / number2;
-                    String txtKetQua = ketqua + "";
-                    txtResults.setText("Kết quả a : b = " + txtKetQua);
+                    String txtKetQua = String.format("Kết quả: %.02f / %.02f = %.02f",number1, number2, ketqua);
+                    txtResults.setText(txtKetQua);
                 }
             }
         });
